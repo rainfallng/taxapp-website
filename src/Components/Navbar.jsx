@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="  max-w-5xl mx-auto 2xl:max-w-full 2xl:mx-40">
         <div className="grid mx-[10px] md:mx-0 md:flex justify-between items-center">
           <div className="w-[150px] md:w-[200px] mt-5 md:mt-0">
-            <Link to="/">
+            <Link to="#">
               <img src={Logo} alt="" />
             </Link>
           </div>
@@ -22,7 +22,7 @@ const Navbar = () => {
           >
             <ul className="grid md:flex gap-5 my-5 md:gap-10 list-none text-[14px]  ">
               <NavLink
-                to="/"
+                to="#"
                 className={({ isActive, isPending }) =>
                   isPending
                     ? "text-[14px]   text-[#252657] font-[400] "
@@ -34,7 +34,7 @@ const Navbar = () => {
                 <li>How it works</li>
               </NavLink>
               <NavLink
-                to="/about"
+                to="#"
                 className={({ isActive, isPending }) =>
                   isPending
                     ? "text-[14px]   text-[#252657] font-[400] "
@@ -46,7 +46,7 @@ const Navbar = () => {
                 <li>Taxapp for</li>
               </NavLink>
               <NavLink
-                to="/properties"
+                to="#"
                 className={({ isActive, isPending }) =>
                   isPending
                     ? "text-[14px]   text-[#252657] font-[400] "
@@ -58,7 +58,7 @@ const Navbar = () => {
                 <li>Products</li>
               </NavLink>
               <NavLink
-                to="/agents"
+                to="#"
                 className={({ isActive, isPending }) =>
                   isPending
                     ? "text-[14px]  text-[#252657] font-[400]  "
@@ -91,7 +91,7 @@ const Navbar = () => {
           >
             <ul className="grid md:flex gap-5 my-5 md:gap-10 list-none text-[18px] font-[500]   ">
               <NavLink
-                to="/login"
+                to="#"
                 className={({ isActive, isPending }) =>
                   isPending
                     ? "text-[14px] lg:text-[18px]    text-[#252657]"
@@ -105,7 +105,7 @@ const Navbar = () => {
                 </li>
               </NavLink>
               <NavLink
-                to="/signup"
+                to="#"
                 className={({ isActive, isPending }) =>
                   isPending
                     ? "text-[14px]  "
