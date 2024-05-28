@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const GetStarted = () => {
   return (
     <div className="  bg-[#2D2D43]  py-[71px]  font-Poppins">
@@ -9,9 +11,11 @@ const GetStarted = () => {
           Let us help you get your taxes done in real time
         </p>
 
-        <p className=" inline-block text-[14px] text-[#FFFFFF] font-[500] px-[66px] py-[11px] border-[2px] border-[#57B87A]  rounded-full">
-          Get started
-        </p>
+        <Link to="http://taxapp.ng/" target="blank">
+          <p className=" inline-block text-[14px] text-[#FFFFFF] font-[500] px-[66px] py-[11px] border-[2px] border-[#57B87A]  rounded-full">
+            Get started
+          </p>
+        </Link>
       </div>
     </div>
   );

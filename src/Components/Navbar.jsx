@@ -90,34 +90,24 @@ const Navbar = () => {
             className={`md:flex md:items-center ${!open ? "block" : "hidden"}`}
           >
             <ul className="grid md:flex gap-5 my-5 md:gap-10 list-none text-[18px] font-[500]   ">
-              <NavLink
-                to="#"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? "text-[14px] lg:text-[18px]    text-[#252657]"
-                    : isActive
-                    ? "text-[14px] lg:text-[18px]   text-[#252657]"
-                    : ""
-                }
+              <Link
+                to="https://taxapp.ng/"
+                target="blank"
+                className="text-[14px] lg:text-[18px]   text-[#252657]"
               >
                 <li className=" font-[500] md:px-3 md:py-2 text-[#252657]">
                   Log in
                 </li>
-              </NavLink>
-              <NavLink
-                to="#"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? "text-[14px]  "
-                    : isActive
-                    ? "text-[14px]   font-[400]"
-                    : ""
-                }
+              </Link>
+              <Link
+                to="https://taxapp.ng/"
+                target="blank"
+                className="text-[14px]  font-[400]"
               >
                 <li className=" text-white rounded-[50px]  bg-[#2EAB8D] px-[24px] py-[10px]">
                   Get started
                 </li>
-              </NavLink>
+              </Link>
             </ul>
           </div>
         </div>

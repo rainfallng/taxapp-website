@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Assistant from "../assets/Assistant.svg";
 import Object from "../assets/OBJECTS.svg";
 import Streamline from "../assets/Streamline.svg";
@@ -48,9 +49,11 @@ const Easy = () => {
               so fast and reliable making your filing process done in as quick
               as 10 minutes!
             </p>
-            <p className="cursor-pointer inline-block text-[18px] text-[#FFFFFF] font-[600] px-[31px] py-[11px] bg-[#2EAB8D]  rounded-full">
-              Get started
-            </p>
+            <Link to="https://taxapp.ng/" target="blank">
+              <p className="cursor-pointer inline-block text-[18px] text-[#FFFFFF] font-[600] px-[31px] py-[11px] bg-[#2EAB8D]  rounded-full">
+                Get started
+              </p>
+            </Link>
           </div>
           <div className="">
             <img src={Streamline} alt="" />
@@ -83,9 +86,11 @@ const Easy = () => {
               Assist. AI chat support is available for any question, big or
               small, any time of the day.
             </p>
-            <p className="cursor-pointer inline-block text-[16px] text-[#FFFFFF] font-[500] px-[66px] py-[11px] bg-[#57B87A]  rounded-full">
-              Get started
-            </p>
+            <Link to="https://taxapp.ng/" target="blank">
+              <p className="cursor-pointer inline-block text-[16px] text-[#FFFFFF] font-[500] px-[66px] py-[11px] bg-[#57B87A]  rounded-full">
+                Get started
+              </p>
+            </Link>
           </div>
         </div>
       </div>

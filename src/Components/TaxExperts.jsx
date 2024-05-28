@@ -1,5 +1,6 @@
 import HeroImage from "../assets/woman.png";
 import CheckIcon from "../assets/check.svg";
+import { Link } from "react-router-dom";
 
 const TaxExperts = () => {
   return (
@@ -38,9 +39,11 @@ const TaxExperts = () => {
               </span>
               Audit support guaranteed
             </p>
-            <p className=" inline-block text-[18px] text-[#FFFFFF] font-[600] px-[31px] py-[11px] bg-[#52D0B2]  rounded-full">
-              Get started
-            </p>
+            <Link to="https://taxapp.ng/">
+              <p className=" inline-block text-[18px] text-[#FFFFFF] font-[600] px-[31px] py-[11px] bg-[#52D0B2]  rounded-full">
+                Get started
+              </p>
+            </Link>
           </div>
         </div>
       </div>
