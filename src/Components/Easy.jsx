@@ -56,7 +56,7 @@ const Easy = () => {
             </Link>
           </div>
           <div className="">
-            <img src={Streamline} alt="" />
+            <img src={Streamline} alt="image" />
           </div>
         </div>
       </div>
