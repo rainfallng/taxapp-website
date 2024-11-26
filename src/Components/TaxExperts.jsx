@@ -41,7 +41,7 @@ const TaxExperts = () => {
             </p>
             <Link to="https://taxapp.ng/">
               <p className=" inline-block text-[18px] text-[#FFFFFF] font-[600] px-[31px] py-[11px] bg-[#52D0B2]  rounded-full">
-                Get started
+                Join Taxapp Platform
               </p>
             </Link>
           </div>

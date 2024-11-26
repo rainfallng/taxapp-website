@@ -13,7 +13,7 @@ const HeroSection = () => {
               Get unlimited live help from tax experts, plus a final review
               before you file—all for free.
             </p>
-            <p className="cursor-pointer text-center md:inline-block text-[18px] text-[#252657] font-[600] px-[31px] py-[11px] bg-[#52D0B2]  rounded-full">
+            <p className="cursor-pointer text-center md:inline-block text-[18px] text-[#ffffff] font-[600] px-[31px] py-[11px] bg-[#52D0B2]  rounded-full">
               Sign up for free
             </p>
           </div>

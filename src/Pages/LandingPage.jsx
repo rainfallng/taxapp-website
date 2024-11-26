@@ -1,5 +1,6 @@
 import Easy from "../Components/Easy";
 import FileTaxes from "../Components/FileTaxes";
+import Footer from "../Components/Footer";
 import GetStarted from "../Components/GetStarted";
 import HeroSection from "../Components/HeroSection";
 import Navbar from "../Components/Navbar";
@@ -14,6 +15,7 @@ const LandingPage = () => {
       <TaxExperts />
       <Easy />
       <GetStarted />
+      <Footer />
     </div>
   );
 };
