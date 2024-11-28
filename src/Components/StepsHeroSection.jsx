@@ -65,8 +65,8 @@ const StepsHeroSection = () => {
           <Slider {...sliderSettings}>
             {steps.map((step) => (
               <div key={step.id} className=" ">
-                <div className="flex  items-center gap-[48px]">
-                  <div className="  max-w-[600px] w-full h-auto">
+                <div className=" grid place-items-center lg:flex  items-center gap-[48px]">
+                  <div className="  max-w-[600px] w-full h-auto order-2 lg:order-1">
                     <img
                       src={step.image}
                       alt={`Step ${step.id}`}
@@ -74,16 +74,16 @@ const StepsHeroSection = () => {
                     />
                   </div>
 
-                  <div className="max-w-[408px] w-full text-center md:text-left">
+                  <div className="max-w-[408px] w-full text-center md:text-left order-1 lg:order-2">
                     <div className="flex items-center justify-center">
                       <p className="text-[48px] w-[72px] h-[72px] text-center rounded-full bg-[#2EAB8D] text-white">
                         {step.id}
                       </p>
                     </div>
-                    <p className="font-[600] text-[28px] text-[#121212] mt-[24px] text-center">
+                    <p className="font-[600] text-[24px] lg:text-[28px] text-[#121212] mt-[24px] text-center">
                       {step.title}
                     </p>
-                    <ul className="font-Poppins font-[500] text-[18px] text-[#717171] list-disc mt-[20px] space-y-[20px]">
+                    <ul className="font-Poppins font-[500] text-[14px] lg:text-[18px] text-[#717171] lg:list-disc mt-[20px] space-y-[20px]">
                       {step.description.map((desc, index) => (
                         <li key={index}>{desc}</li>
                       ))}

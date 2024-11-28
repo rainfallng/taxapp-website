@@ -3,7 +3,7 @@ import HeroImage from "../assets/heroImage.png";
 const HeroSection = () => {
   return (
     <div className="    bg-[#F8FAF7]">
-      <div className="  max-w-6xl mx-10 md:mx-auto pt-[40px] md:mt-0">
+      <div className="  max-w-6xl mx-10 lg:mx-auto pt-[40px] md:mt-0">
         <div className=" grid gap-[5px] md:gap-0 md:flex justify-between items-center">
           <div className="  max-w-[452px]">
             <p className=" font-[700] text-[#252657] lg:text-[56px] text-[20px]">
