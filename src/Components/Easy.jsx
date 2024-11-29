@@ -71,7 +71,7 @@ const Easy = () => {
         </p>
       </div>
 
-      <div className="relative bg-[#F4F4F7] max-w-[1096px] mx-auto rounded-[30px]  my-[51px] pt-[80px]">
+      <div className="relative bg-[#F4F4F7] max-w-[1096px] mx-auto rounded-[30px]  my-[51px] pt-[80px] hidden">
         <div className="  grid md:flex items-center justify-between px-[48px] py-[13px]">
           <div className="">
             <img src={WomanSmiling} alt="" />
