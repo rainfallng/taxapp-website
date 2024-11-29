@@ -61,7 +61,7 @@ const Easy = () => {
         </div>
       </div>
 
-      <div className=" my-[40px] md:my-[100px] max-w-[613px] mx-auto text-center ">
+      <div className=" my-[40px] md:my-[100px] max-w-[613px] mx-auto text-center hidden">
         <p className="font-[600] text-[36px] text-[#252657] mb-[24px]">
           Be in control of your own tax return
         </p>
