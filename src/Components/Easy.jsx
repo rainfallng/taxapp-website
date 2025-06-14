@@ -49,7 +49,7 @@ const Easy = () => {
               so fast and reliable making your filing process done in as quick
               as 10 minutes!
             </p>
-            <Link to="https://taxapp.ng/" target="blank">
+            <Link to="https://web.taxapp.ng/" target="blank">
               <p className="cursor-pointer inline-block text-[18px] text-[#FFFFFF] font-[600] px-[31px] py-[11px] bg-[#2EAB8D]  rounded-full">
                 Get started
               </p>
@@ -86,7 +86,7 @@ const Easy = () => {
               Assist. AI chat support is available for any question, big or
               small, any time of the day.
             </p>
-            <Link to="https://taxapp.ng/" target="blank">
+            <Link to="https://web.taxapp.ng/" target="blank">
               <p className="cursor-pointer inline-block text-[16px] text-[#FFFFFF] font-[500] px-[66px] py-[11px] bg-[#57B87A]  rounded-full">
                 Get started
               </p>
