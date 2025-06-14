@@ -100,7 +100,7 @@ const Footer = () => {
 
         <div className="py-[16px] text-center">
           <p className="font-[400] text-[12px]">
-            Copyright © 2024. Taxapp Rainfall Ltd. All Rights Reserved.
+            Copyright © 2025. Taxpoint Rainfall Ltd. All Rights Reserved.
           </p>
         </div>
       </div>

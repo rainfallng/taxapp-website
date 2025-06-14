@@ -11,7 +11,7 @@ const GetStarted = () => {
           Let us help you get your taxes done in real time
         </p>
 
-        <Link to="http://taxapp.ng/" target="blank">
+        <Link to="http://taxpoint.ng/" target="blank">
           <p className=" inline-block text-[14px] text-[#FFFFFF] font-[500] px-[66px] py-[11px] border-[2px] border-[#57B87A]  rounded-full">
             Get started
           </p>
