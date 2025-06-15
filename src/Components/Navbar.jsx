@@ -68,7 +68,7 @@ const Navbar = () => {
             <ul className="grid lg:flex gap-5 my-5 lg:gap-10 list-none text-[18px] font-[500]">
               <li>
                 <Link
-                  to="https://web.taxpoint.ng/"
+                  to="https://lagos.taxpoint.ng/"
                   target="_blank"
                   className="text-[14px] lg:text-[16px] text-[#252657] font-[500]"
                 >
@@ -77,7 +77,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="https://web.taxpoint.ng/"
+                  to="https://lagos.taxpoint.ng/"
                   target="_blank"
                   className="text-[14px] font-[400]"
                 >
